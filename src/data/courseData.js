@@ -369,8 +369,27 @@ export const courseData = {
           { q: "¿Qué se recomienda hacer antes de escribir la primera línea de código de un proyecto real?", options: ["Elegir colores", "Planificar el problema y las funcionalidades", "Comprar un dominio", "Nada, se empieza directo"], ans: 1 },
           { q: "¿Qué es el 'despliegue' (deploy) de una aplicación?", options: ["Borrar el proyecto", "Publicarla para que sea accesible desde internet", "Escribir el código", "Hacer un commit"], ans: 1 },
           { q: "¿Dónde NUNCA deben subirse las claves secretas de un proyecto?", options: ["A un archivo .env local", "A un repositorio público de GitHub", "A las variables de entorno del hosting", "A un gestor de contraseñas"], ans: 1 }
-        ]
-      }
-    }
+],
+  dictionary: [
+    { id: "d1", term: "Algoritmo", def: "Una serie de pasos finitos y ordenados para resolver un problema o realizar una tarea." },
+    { id: "d2", term: "Variable", def: "Un espacio en memoria con un nombre, usado para guardar un valor que puede cambiar durante la ejecución del programa." },
+    { id: "d3", term: "Función", def: "Un bloque de código reutilizable que realiza una tarea específica y puede recibir parámetros y devolver un resultado." },
+    { id: "d4", term: "Bucle (Loop)", def: "Una estructura que repite un bloque de código varias veces, como 'for' o 'while'." },
+    { id: "d5", term: "Condicional", def: "Una estructura (if/else) que ejecuta distintas partes del código según si una condición es verdadera o falsa." },
+    { id: "d6", term: "Clase", def: "Un molde que define los atributos y métodos que tendrán los objetos creados a partir de ella (Programación Orientada a Objetos)." },
+    { id: "d7", term: "Objeto", def: "Una instancia concreta de una clase, con sus propios valores para los atributos definidos." },
+    { id: "d8", term: "Herencia", def: "Mecanismo de la POO donde una clase hija reutiliza y extiende el comportamiento de una clase padre." },
+    { id: "d9", term: "API", def: "Interfaz de Programación de Aplicaciones: un conjunto de reglas que permite que dos programas se comuniquen entre sí." },
+    { id: "d10", term: "JSON", def: "Formato de texto ligero para representar datos estructurados, muy usado para el intercambio de información entre cliente y servidor." },
+    { id: "d11", term: "Git", def: "Sistema de control de versiones que guarda el historial de cambios de un proyecto de código." },
+    { id: "d12", term: "Repositorio", def: "Un espacio (local o en GitHub) donde se almacena un proyecto junto con todo su historial de versiones (commits)." },
+    { id: "d13", term: "SQL", def: "Lenguaje usado para consultar, insertar, actualizar y borrar datos en una base de datos relacional." },
+    { id: "d14", term: "Base de datos", def: "Un sistema organizado para almacenar, consultar y gestionar información de forma persistente." },
+    { id: "d15", term: "Backend", def: "La parte de una aplicación que se ejecuta en el servidor: maneja la lógica, la base de datos y las reglas de negocio." },
+    { id: "d16", term: "Frontend", def: "La parte de una aplicación con la que interactúa directamente el usuario: la interfaz visual." },
+    { id: "d17", term: "Endpoint", def: "Una URL específica de una API donde se pueden hacer peticiones (por ejemplo, GET /usuarios)." },
+    { id: "d18", term: "Booleano", def: "Un tipo de dato que solo puede tener dos valores posibles: verdadero (True) o falso (False)." },
+    { id: "d19", term: "Parámetro", def: "Un valor que se le pasa a una función para que la use dentro de su lógica." },
+    { id: "d20", term: "Return", def: "Palabra clave que hace que una función devuelva un valor y termine su ejecución." }
   ]
 };
