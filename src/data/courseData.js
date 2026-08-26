@@ -369,7 +369,10 @@ export const courseData = {
           { q: "¿Qué se recomienda hacer antes de escribir la primera línea de código de un proyecto real?", options: ["Elegir colores", "Planificar el problema y las funcionalidades", "Comprar un dominio", "Nada, se empieza directo"], ans: 1 },
           { q: "¿Qué es el 'despliegue' (deploy) de una aplicación?", options: ["Borrar el proyecto", "Publicarla para que sea accesible desde internet", "Escribir el código", "Hacer un commit"], ans: 1 },
           { q: "¿Dónde NUNCA deben subirse las claves secretas de un proyecto?", options: ["A un archivo .env local", "A un repositorio público de GitHub", "A las variables de entorno del hosting", "A un gestor de contraseñas"], ans: 1 }
-],
+        ]
+      }
+    }
+  ],
   dictionary: [
     { id: "d1", term: "Algoritmo", def: "Una serie de pasos finitos y ordenados para resolver un problema o realizar una tarea." },
     { id: "d2", term: "Variable", def: "Un espacio en memoria con un nombre, usado para guardar un valor que puede cambiar durante la ejecución del programa." },
