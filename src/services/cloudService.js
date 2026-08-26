@@ -27,12 +27,11 @@ export const cloudService = {
   // --- Tutor IA ---
   async askTutor(userId, prompt, context) {
     try {
-      // Intento de llamar a Supabase Edge Function (Seguro: keys en servidor)
       const { data, error } = await supabase.functions.invoke('tutor-ai', { body: { prompt, context } });
       if (error) throw error;
       return data.reply;
     } catch (e) {
-      // Fallback para desarrollo si la Edge Function no está desplegada
+      console.error("ERROR REAL DEL TUTOR IA:", e); // <-- esto nos dirá qué pasó
       return "Soy tu Tutor IA. Veo que estás en " + context.stage + ". (Nota: Configura la Edge Function de Supabase para obtener respuestas reales del LLM). Te sugiero repasar los conceptos paso a paso.";
     }
   },
